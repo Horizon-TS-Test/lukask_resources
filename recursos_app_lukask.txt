@@ -1,1 +1,13 @@
 RECURSOS DISPONIBLES PARA APLICACION LUKASK.
+
+    "login": "http://192.168.1.56:8081/lukask-api/login/",
+    "userProfile": "http://192.168.1.56:8081/lukask-api/userProfile/",
+    "Person": "http://192.168.1.56:8081/lukask-api/Person/",
+    "TypeAction": "http://192.168.1.56:8081/lukask-api/TypeAction/",
+    "action": "http://192.168.1.56:8081/lukask-api/action/",
+    "prioPub": "http://192.168.1.56:8081/lukask-api/prioPub/",
+    "typePub": "http://192.168.1.56:8081/lukask-api/typePub/",
+    "publication": "http://192.168.1.56:8081/lukask-api/publication/",
+    "tracing": "http://192.168.1.56:8081/lukask-api/tracing/",
+    "activity": "http://192.168.1.56:8081/lukask-api/activity/",
+    "multimedia": "http://192.168.1.56:8081/lukask-api/multimedia/"
