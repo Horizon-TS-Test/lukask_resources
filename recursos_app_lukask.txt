@@ -11,3 +11,5 @@ RECURSOS DISPONIBLES PARA APLICACION LUKASK.
     "tracing": "http://192.168.1.56:8081/lukask-api/tracing/",
     "activity": "http://192.168.1.56:8081/lukask-api/activity/",
     "multimedia": "http://192.168.1.56:8081/lukask-api/multimedia/"
+    --recurso para insertar  images vinculadas a una publicacion
+    http://192.168.1.56:8081/lukask-api/gestion_media
