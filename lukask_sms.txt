@@ -1,0 +1,6 @@
+Ruta envio de sms
+http://192.168.1.16:3000/sms
+Formato de datos
+{"numero":"0984076783",
+ "sms": "Prueba de sms"	
+}
