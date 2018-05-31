@@ -4,12 +4,28 @@ RECURSOS DISPONIBLES PARA APLICACION LUKASK.
     "userProfile": "http://192.168.1.56:8081/lukask-api/userProfile/",
     "Person": "http://192.168.1.56:8081/lukask-api/Person/",
     "TypeAction": "http://192.168.1.56:8081/lukask-api/TypeAction/",
-    "action": "http://192.168.1.56:8081/lukask-api/action/",
+    ------
+    Action publication
+    ------
+    "actionPub": "http://192.168.1.56:8081/lukask-api/actionPub/",
+        POST => Json format
+            [{
+                description                     :   "pruebas de insercion de datos",
+                type_action                     :   "35168ae9-afd6-4a24-acb6-e2f12c93b85c",
+                publication                     :   "685febef-9932-416a-8112-31f5e327dffb",
+                active                          :   True,
+                multimedia.name_file            :   datosprueba,
+                multimedia.format_multimedia    :   "imagen.png",
+                multimedia.media_file           :   "IG"
+            }]
+    
     "prioPub": "http://192.168.1.56:8081/lukask-api/prioPub/",
     "typePub": "http://192.168.1.56:8081/lukask-api/typePub/",
     "publication": "http://192.168.1.56:8081/lukask-api/publication/",
     "tracing": "http://192.168.1.56:8081/lukask-api/tracing/",
     "activity": "http://192.168.1.56:8081/lukask-api/activity/",
     "multimedia": "http://192.168.1.56:8081/lukask-api/multimedia/"
-    --recurso para insertar  images vinculadas a una publicacion
+    ----
+    Recurso para insertar array de imagenes vinculadas a una publicacion
+    ----
     http://192.168.1.56:8081/lukask-api/gestion_media
