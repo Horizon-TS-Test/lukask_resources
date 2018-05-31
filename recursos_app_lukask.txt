@@ -29,3 +29,15 @@ RECURSOS DISPONIBLES PARA APLICACION LUKASK.
     Recurso para insertar array de imagenes vinculadas a una publicacion
     ----
     http://192.168.1.56:8081/lukask-api/gestion_media
+        POST => Json format
+            [{
+                publication                     : "d8985194-1a72-4e41-9b78-79b082716174",
+                multimedia[0]name_file          : "data prueba 9",
+                multimedia[0]format_multimedia  : "IG",
+                multimedia[0]description_file   : "data prueba 9",
+                multimedia[0]active             : True,
+                multimedia[1]name_file          : "data prueba 10",
+                multimedia[1]format_multimedia  : "IG",
+                multimedia[1]description_file   : "data prueba 10",
+                multimedia[1]active             : True
+            }]
