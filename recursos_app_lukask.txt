@@ -22,6 +22,10 @@ RECURSOS DISPONIBLES PARA APLICACION LUKASK.
     "prioPub": "http://192.168.1.56:8081/lukask-api/prioPub/",
     "typePub": "http://192.168.1.56:8081/lukask-api/typePub/",
     "publication": "http://192.168.1.56:8081/lukask-api/publication/",
+    GET => ruta de consulta formato
+        http://192.168.1.56:8081/lukask-api/publication/?search=data
+        data = valor del filtro de busqueda.
+        
     "tracing": "http://192.168.1.56:8081/lukask-api/tracing/",
     "activity": "http://192.168.1.56:8081/lukask-api/activity/",
     "multimedia": "http://192.168.1.56:8081/lukask-api/multimedia/"
