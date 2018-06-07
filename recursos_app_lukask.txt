@@ -28,8 +28,8 @@ RECURSOS DISPONIBLES PARA APLICACION LUKASK.
             publication__id_publication
         
         GET => filtro para busqueda de comentarios hijos y padres sin hijos.
-        http://192.168.1.56:8081/lukask-api/actionPub/?qrOp=children (hijos)
-        http://192.168.1.56:8081/lukask-api/actionPub/?qrOp=childless (Sin hijos)  -- revisar.
+        http://192.168.1.56:8081/lukask-api/actionPub/?qrOp=comments --comentraios 
+        http://192.168.1.56:8081/lukask-api/actionPub/?qrOp=replies  --respuestas a comentarios
         http://192.168.1.56:8081/lukask-api/actionPub/ (consulta normal)
         
     "prioPub": "http://192.168.1.56:8081/lukask-api/prioPub/",
