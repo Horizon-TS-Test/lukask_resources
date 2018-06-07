@@ -20,7 +20,12 @@ RECURSOS DISPONIBLES PARA APLICACION LUKASK.
             }]
     
         GET => ruta de consulta por filtros de tipo de accion y publicacion.
-        http://192.168.1.56:8081/lukask-api/actionPub/?type_action__id_type_action=valor1&publication__id_publication=valor2
+        http://192.168.1.56:8081/lukask-api/actionPub/
+            
+        filtros de busqueda:
+            action_parent__id_action 
+            type_action__id_type_action
+            publication__id_publication
         
         GET => filtro para busqueda de comentarios hijos y padres sin hijos.
         http://192.168.1.56:8081/lukask-api/actionPub/?qrOp=children (hijos)
