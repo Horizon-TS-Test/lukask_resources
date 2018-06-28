@@ -61,3 +61,18 @@ RECURSOS DISPONIBLES PARA APLICACION LUKASK.
                 multimedia[1]description_file   : "data prueba 10",
                 multimedia[1]active             : True
             }]
+    
+    ------
+    Recurso para gestion de notificaciones
+    ------
+    http://192.168.1.56:8081/lukask-api/notification/
+        POST => format data
+        [{
+            description_notification                    : "texto"
+            date_generated_notification                 : "2018-06-27 19:54:4"
+            users_notificated[0]description_notif_rec   : "texto"
+            users_notificated[0]user_received           : 17
+            users_notificated[0]description_notif_rec   : "texto"
+            users_notificated[0]user_received           : 14
+         }]
+         
