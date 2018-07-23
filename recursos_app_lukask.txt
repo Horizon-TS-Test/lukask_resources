@@ -1,9 +1,20 @@
 RECURSOS DISPONIBLES PARA APLICACION LUKASK.
 
     "login": "http://192.168.1.56:8081/lukask-api/login/",
+    
+    ------------
+    User Profile
+    ------------
     "userProfile": "http://192.168.1.56:8081/lukask-api/userProfile/",
+        GET => Ruta de consulta y formato de filtros de busqueda
+        http://192.168.1.56:8081/lukask-api/userProfile/
+        --Filtros
+        usrRelCom=3e823489-1c38-4558-8ed3-43bc7f57155a
+        usrRelPub=72afe55b-b4cc-4122-8249-c63c3df8b944
+        
     "Person": "http://192.168.1.56:8081/lukask-api/Person/",
     "TypeAction": "http://192.168.1.56:8081/lukask-api/TypeAction/",
+    
     ------
     Action publication
     ------
