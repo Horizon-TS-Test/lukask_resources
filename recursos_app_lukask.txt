@@ -52,6 +52,9 @@ RECURSOS DISPONIBLES PARA APLICACION LUKASK.
     GET => ruta de consulta formato
         http://192.168.1.56:8081/lukask-api/publication/?search=data
         data = valor del filtro de busqueda.
+        => Formato de filtro para busqueda de publicaciones por usuario.
+        http://192.168.1.56:8081/lukask-api/publication/?pubUserQr=2
+        pubUserQr = id se usario para filtro de publicaiones.
         
     "tracing": "http://192.168.1.56:8081/lukask-api/tracing/",
     "activity": "http://192.168.1.56:8081/lukask-api/activity/",
