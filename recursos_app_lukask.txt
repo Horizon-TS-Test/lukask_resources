@@ -55,6 +55,11 @@ RECURSOS DISPONIBLES PARA APLICACION LUKASK.
         => Formato de filtro para busqueda de publicaciones por usuario.
         http://192.168.1.56:8081/lukask-api/publication/?pubUserQr=2
         pubUserQr = id se usario para filtro de publicaiones.
+        http://192.168.1.56:8081/lukask-api/publication/?sinceDate=2018-11-22&untilDate=2018-11-29
+        sinceDate = desde and untilDate = hasta
+        http://192.168.1.56:8081/lukask-api/publication/?locationPub=Riobamba
+        locationPub = ubicación de la queja.
+
         
     "tracing": "http://192.168.1.56:8081/lukask-api/tracing/",
     "activity": "http://192.168.1.56:8081/lukask-api/activity/",
