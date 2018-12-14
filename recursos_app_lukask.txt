@@ -57,8 +57,8 @@ RECURSOS DISPONIBLES PARA APLICACION LUKASK.
         pubUserQr = id se usario para filtro de publicaiones.
         http://192.168.1.56:8081/lukask-api/publication/?sinceDate=2018-11-22&untilDate=2018-11-29
         sinceDate = desde and untilDate = hasta
-        http://192.168.1.56:8081/lukask-api/publication/?locationPub=Riobamba
-        locationPub = ubicación de la queja.
+        http://192.168.1.56:8081/lukask-api/publication/?parish=Riobamba
+        parish = parroquia en la que se registro.
 
         
     "tracing": "http://192.168.1.56:8081/lukask-api/tracing/",
